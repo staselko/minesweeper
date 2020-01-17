@@ -1,6 +1,6 @@
 $(".begin-button").click(function() {
   $(".begin-button").replaceWith(
-    '<table><tr><td class="item1"></td><td class="item2"></td><td class="item3"></td></tr><tr><td class="item4"></td><td class="item5"></td><td class="item6"></td></tr><tr><td class="item7"></td><td class="item8"></td><td class="item9"></td></tr></table><br /><input class="reset" type="button" value="Reset" />'
+    '<table><tr><td class="item1" data-positioan="0"></td><td data-positioan="1" class="item2"></td><td class="item3" data-positioan="2"></td></tr><tr><td class="item4" data-positioan="3"></td><td class="item4"></td><td class="item6" data-positioan="5"></td></tr><tr><td class="item7" data-positioan="6"></td><td class="item8" data-positioan="7"></td><td class="item9" data-positioan="8"></td></tr></table><br /><input class="reset" type="button" value="Reset" />'
   );
 
 $(function() {
